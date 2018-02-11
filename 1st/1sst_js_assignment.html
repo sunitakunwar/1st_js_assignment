@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Silly story generator</title>
+
+    <style>
+    body {
+      background: #FFC0CB;
+      font-family: ariel;
+      width: 1350px;
+    }
+    h1{
+      text-align: center;
+    }
+    label {
+      font-weight: bold;  
+    }
+    div {
+      padding-bottom: 20px;
+      text-align: center;
+    }
+    input[type="text"] {
+      padding: 2px;
+      width: 100px;
+    }
+    p {
+      background:#FFC125;
+      color: #5E2612;
+      visibility: hidden;
+      align-content: center;
+      text-align: center;
+    }
+    </style>
+  <body>  </head>
+
+
+    <h1>SILLYSTORY GENERATOR</h1>
+    <div>
+      <label for="customname">Enter custom name:</label>
+      <input id="customname" type="text" placeholder="">
+    </div>
+    <div>
+      <label for="summer">Summer</label><input id="summer" type="radio" name="ukus" value="summer" checked>
+      <label for="winter">Winter</label><input id="winter" type="radio" name="ukus" value="winter">
+    </div>
+    <div>
+    
+      <label for ="country"> Country </label>
+      <select name="country" id="country">
+      <option value="USA" selected>USA</option>
+      <option value="Nepal" >Nepal</option>
+      <option value="Russia" >Russia</option>
+
+      </select>
+
+    </div>
+    <div>
+      <button class="randomize">Generate random story</button>
+    </div>
+    <p class="story"></p>
+    <script src="1sst_js_assignment.js"></script>
+  </body>
+</html>
